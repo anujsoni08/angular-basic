@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { YellowBackgroundDirective } from './directives/yellowBackgroundDirective/yellow-background.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YellowBackgroundDirective
   ],
   imports: [
     BrowserModule,
